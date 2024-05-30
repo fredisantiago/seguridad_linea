@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Protección de Contraseñas - Seguridad en Línea</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Reset de CSS para asegurar consistencia entre navegadores -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Protección De Contraseñas</h1>
+            <div class="menu-toggle">☰<i class="fas fa-bars"></i></div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Inicio</a></li>
+                    <li><a href="general_tips.html"><i class="fas fa-lightbulb"></i> Consejos Generales</a></li>
+                    <li><a href="password_protection.html"><i class="fas fa-key"></i> Protección de Contraseñas</a></li>
+                    <li><a href="social_media.html"><i class="fas fa-share-alt"></i> Seguridad en Redes</a></li>
+                    <li><a href="malware_protection.html"><i class="fas fa-shield-alt"></i> Protección contra
+                            Malware</a></li>
+                    <li><a href="resources.html"><i class="fas fa-link"></i> Recursos y Enlaces</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <p>A continuación, encontrarás una lista de recursos útiles y enlaces a videos educativos sobre diversos
+                temas de seguridad en línea:</p>
+            <ul>
+                <li><strong>YouTube:</strong> Canales recomendados
+                    <ul>
+                        <li><a href="https://www.youtube.com/user/techquickie" target="_blank">Techquickie</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCjr2bPAyPV7t35MvcgT3W8Q" target="_blank">The Hated
+                                One</a></li>
+                        <li><a href="https://www.youtube.com/user/briankrebs" target="_blank">Krebs on Security</a></li>
+                    </ul>
+                </li>
+                <li><strong>Coursera:</strong> <a href="https://www.coursera.org/courses?query=cybersecurity"
+                        target="_blank">Cursos sobre Ciberseguridad</a></li>
+                <li><strong>Khan Academy:</strong> <a href="https://www.khanacademy.org/computing/computer-security"
+                        target="_blank">Seguridad en Línea</a></li>
+                <li><strong>Cybrary:</strong> <a href="https://www.cybrary.it/" target="_blank">Plataforma de
+                        Ciberseguridad</a></li>
+            </ul>
+            <!-- Otros consejos van aquí -->
+            <img src="images/contraseñas.png" alt="Protección contra Malware">
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Seguridad en Línea</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script>
+        // JavaScript para activar y desactivar el menú toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+
+        menuToggle.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
